@@ -1,15 +1,8 @@
 'use client';
 import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
 import Projects from '@/components/Projects';
 import Loading from './loading';
 import Search from '@/components/Search';
-
-export const metadata = {
-  title: 'Homepage',
-  description: 'Usando next e travessuras',
-  keywords: 'tuffy, play, any, tey',
-};
 
 const page = () => {
   const [loading, setLoading] = useState(true);
